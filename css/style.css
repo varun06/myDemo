@@ -28,33 +28,13 @@ a:hover { color: #333;}
 .extralight { font-weight: 300; letter-spacing: .1em; }
 .small { display: block; padding: 20px; font-size: 20px; font-weight: 600; }
 
-blockquote {
-    text-align: justify;
-    font-weight: 300;
-    font-style: italic;
-    line-height: 1.4;
-}
-
-blockquote .author {
-    display: block;
-    text-align: right;
-    padding: 10px 40px;
-    font-weight: 600;
-    font-size: 36px;
-}
-
-.img-wrap {	margin: 0 auto; }
-.img-inline { display: inline-block; padding: 12px 3px; }
-.img-link {	text-decoration: none; }
-.img-border { border: solid 1px #aaa; }
-
 
 /* COMMON STEP STYLES */
 
 .step {
     text-align: center;
     width: 1000px;
-    padding: 20px;
+    padding: 30px;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing:    border-box;
@@ -71,7 +51,7 @@ blockquote .author {
     text-shadow: rgba(0,0,0,.01) 0 0 1px; /* Chrome @font-face anti-aliasing fix */
 }
 
-.step:not(.active) { opacity: 0.1; }
+.step:not(.active) { opacity: 0.05; }
 
 
 /* STEP SPECIFIC STYLES */
@@ -83,19 +63,5 @@ blockquote .author {
 #about-text3 { font-size: 77px; }
 
 #jobtitle { font-size: 142px; }
-#likes { font-size: 44px; }
-#office { font-size: 143px;}
+#office { font-size: 142px;}
 #office-fluid { font-size: 77px; margin-top: 20px; }
-
-#combo-text { font-size: 247px; }
-#combo-or { position: relative; left: -20px; }
-#combo-fluid-fixed div { float: left; text-align: center; }
-#combo-plus { width: 10%; font-size: 100px; }
-#combo-fixed, #combo-fluid { width: 45%; }
-#combo-fluid-fixed div .bold { font-size: 63px; width: 100%; }
-#combo-fluid-fixed div .light { font-size: 50px; width: 100%; }
-#combo-fluid .light { letter-spacing: 3px; }
-
-#why-sml { letter-spacing: 19px; font-size: 37px; position: relative; left: 10px; }
-#why-one-site { font-size: 200px; }
-#why-every { font-size: 94px; }
