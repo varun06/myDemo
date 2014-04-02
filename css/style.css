@@ -28,8 +28,18 @@ a:hover { color: #333;}
 .extralight { font-weight: 300; letter-spacing: .1em; }
 .small { display: block; padding: 20px; font-size: 20px; font-weight: 600; }
 
+.pic {
+    background: url('../img/myPic.JPG');
+    background-size: 300px 300px;
+    background-position: 0px 0px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 380px;
+    border-radius: 50%;
+}
 
-/* COMMON STEP STYLES */
+/* COMMON STEP STYLES FOR MOVEMENT*/
 
 .step {
     text-align: center;
